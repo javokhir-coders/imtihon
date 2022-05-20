@@ -1,0 +1,62 @@
+.site-hero {
+padding-top: 153px;
+padding-bottom: 238px;
+background-image: url("../img/animals.png"), url("../img/ara.png");
+background-repeat: no-repeat;
+background-size: contain, 419px 730px;
+background-position: calc(50% - 495px) calc(50% - 145px), calc(50% + 720px) calc(50% + 275px);
+}
+
+
+.site-hero__inner {
+
+}
+
+.site-hero__contact{
+  width: 608px;
+margin-left: auto;
+}
+
+.site-hero__heading {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+margin: 0;
+margin-bottom: 29px;
+}
+
+.site-hero__span {
+
+color:  #78C0DE;
+}
+
+.site-hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.site-hero__link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 15px 48px;
+
+  &:hover{
+    background: rgba(51, 51, 51, 0.8);
+  }
+
+  &:active{
+    background: rgba(51, 51, 51, 0.6);
+  }
+}
+
